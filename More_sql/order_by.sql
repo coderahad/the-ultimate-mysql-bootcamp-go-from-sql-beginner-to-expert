@@ -1,0 +1,1 @@
+SELECT title, author_fname,author_lname,released_year,pages FROM books ORDER BY 3, 2;

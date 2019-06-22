@@ -1,0 +1,1 @@
+the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert is an Udemy course on mysql database operation.

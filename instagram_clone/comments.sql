@@ -1,0 +1,10 @@
+CREATE TABLE comments(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	comment_text VARCHAR(255) NOT NULL,
+	user_id INT NOT NULL,
+	photo_id INT NOT NULL,
+	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+	FOREIGN KEY (photo_id) REFERENCES photos(id)
+	);
+DESC comments;
